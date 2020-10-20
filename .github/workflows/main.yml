@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+      - uses: actions/checkout@v2
+      - run: g++ -Wall *.cpp
+      - run: ./harc.sh 
+      - run: diff output.txt good_output.txt
+
