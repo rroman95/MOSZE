@@ -2,7 +2,7 @@
 
 void Monster::ToString()
 {
-    cout << GetName() << " HP: " << GetHp() << " DMG: " << GetDmg() << endl;
+     cout << GetName() << " HP: " << GetHp() << " DMG: " << GetDmg() << endl;
 }
 
 
