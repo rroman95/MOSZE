@@ -17,5 +17,5 @@ public:
     void SetHp(int);
     int GetDmg() const { return dmg; }
     void ToString();
-    static Monster parseUnit(const std::string&);
+    static Monster parseUnit(const std::string&); 
 };
