@@ -5,19 +5,6 @@ void Monster::ToString()
     cout << GetName() << " HP: " << GetHp() << " DMG: " << GetDmg() << endl;
 }
 
-Monster::Monster()
-{
-    this->name = "";
-    this->hp = 0;
-    this->dmg = 0;
-}
-
-Monster::Monster(string name, int hp, int dmg)
-{
-    this->name = name;
-    this->hp = hp;
-    this->dmg = dmg;
-}
 
 void Monster::SetHp(int newhp)
 {
