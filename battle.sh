@@ -1,7 +1,7 @@
 #!/bin/bash
 IFS=$'\n'
 
-rm kimenetek.txt
+rm output.txt
 
 ./output units/thor.json units/loki.json >> output.txt
 ./output units/thor.json units/hulk.json >> output.txt
