@@ -56,5 +56,5 @@ Monster Monster::parseUnit(const std::string& fileName)
         dmg = stoi(_dmg);
         file.close();
     }
-     return Monster(name, hp, dmg);
+    return Monster(name, hp, dmg);
 }
