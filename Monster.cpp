@@ -39,13 +39,13 @@ Monster Monster::parseUnit(const std::string& fileName)
             }
             if (key == 2)
             {
-                for (int i = 0; i < line.size(); i++)
+                for (unsigned int i = 0; i < line.size(); i++)
                     if (isdigit(line[i]))
                         _hp += line[i];
             }
             if (key == 3)
             {
-                for (int i = 0; i < line.size(); i++)
+                for (unsigned int i = 0; i < line.size(); i++)
                     if (isdigit(line[i]))
                         _dmg += line[i];
             }
