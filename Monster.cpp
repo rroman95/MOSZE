@@ -33,7 +33,7 @@ Monster Monster::parseUnit(const std::string& fileName)
                 size_t findcolon = line.find(":");
                 for (int i = findcolon+3; line[i] != '"'; i++)
                 {
-                    name += line[i];
+                     name += line[i];
                 }
 
             }
