@@ -8,7 +8,7 @@ void Monster::ToString()
 
 void Monster::SetHp(int newhp)
 {
-    this->hp = newhp;
+     this->hp = newhp;
 }
 Monster Monster::parseUnit(const std::string& fileName)
 {
