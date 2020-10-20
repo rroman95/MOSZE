@@ -23,3 +23,6 @@ jobs:
         
       - name: generate output        
         run: ./battle.sh 
+
+      - name: I/O test
+        run: diff output.txt good_output.txt
