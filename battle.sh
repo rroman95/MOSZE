@@ -12,6 +12,8 @@ rm output.txt
 ./project units/hulk.json units/loki.json >> output.txt
 
 cat output.txt
+echo "---"
+cat good_output.txt
 DIFF=$(diff output.txt good_output.txt) 
 
 if [ "$DIFF" != "" ] 
