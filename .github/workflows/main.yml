@@ -14,6 +14,7 @@ jobs:
     steps:
       
       - uses: actions/checkout@v2
-      - run: g++ -Wall *.cpp
+      - name: Build
+        run: g++ -Wall -Werror -std=c++17 *.cpp -o output
       - run: ./battle.sh 
       - run: diff output.txt good_output.txt
