@@ -26,9 +26,3 @@ jobs:
         
       - name: I/O test 
         run: diff --strip-trailing-cr output.txt good_output.txt
-        
-      - name: Make executeable
-        run: chmod +x ./test.sh
-        
-      - name: generate txt file        
-        run: ./test.sh 
