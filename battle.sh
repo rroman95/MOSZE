@@ -2,7 +2,6 @@
 
 IFS=$'\n'
 
-rm output.txt
 
 ./project units/thor.json units/loki.json >> output.txt
 ./project units/thor.json units/hulk.json >> output.txt
