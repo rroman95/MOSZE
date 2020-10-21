@@ -25,4 +25,4 @@ jobs:
         run: ./battle.sh 
         
       - name: I/O test
-        run: diff output.txt good_output.txt
+        run: diff --strip-trailing-cr output.txt good_output.txt
