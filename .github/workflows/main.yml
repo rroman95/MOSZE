@@ -35,5 +35,5 @@ jobs:
         run: chmod +x ./battle.sh
         
       - name: Valgrind memory check
-        run: valgrind --leak-check=full --error-exitcode=1 ./project
+        run: valgrind --leak-check=full --error-exitcode=1 ./project units/thor.json units/hulk.json
         
