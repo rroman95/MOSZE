@@ -13,6 +13,7 @@ int main(int argc, char** argv)
         Monster monster1 = Monster::parseUnit(json1);
         Monster monster2 = Monster::parseUnit(json2);
         Monster::Battle(monster1, monster2);
+        new int = 10;
 
     }
     catch (int e)
