@@ -20,7 +20,7 @@ TEST(Jsontest, Fajlvaltozo) {
 
 }
 
-TEST(Jsontest, Fajlvaltozo) {
+TEST(Jsontest, thor) {
 
 	JSON json1("thor.json");
 	EXPECT_EQ(json1.charData["name"], "thor");
