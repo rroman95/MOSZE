@@ -24,7 +24,7 @@ TEST(Jsontest, thor) {
 
 	JSON json1("thor.json");
 	EXPECT_EQ(json1.charData["name"], "thor");
-	EXPECT_EQ(json1.charData["damage"], "15.3");
+	EXPECT_EQ(json1.charData["dmg"], "15.3");
 	EXPECT_EQ(json1.charData["hp"], "300");
 	EXPECT_EQ(json1.charData["attackcooldown"], "2");
 
