@@ -7,6 +7,6 @@ TEST(Jsontest, Fajlvaltozo) {
 	JSON json1(f);
 	EXPECT_EQ(json1.charData["name"], "Hosarkany");
 	EXPECT_EQ(json1.charData["damage"], "30");
-	EXPECT_EQ(json1.charData["health_points"], "300");
+	EXPECT_EQ(json1.charData["healthpoints"], "300");
 
 }
