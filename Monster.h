@@ -24,7 +24,7 @@ public:
 class Adventurer : public Monster
 {
 protected:
-    int level, xp;
+    int xp,level;
     int act_hp;
 
 public:
