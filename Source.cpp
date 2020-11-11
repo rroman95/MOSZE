@@ -40,11 +40,11 @@ void Battle(Adventurer& adventurer, Monster& monster)
 
 int main(int argc, char** argv)
 {
-   //if (argc == 3)
+   if (argc == 3)
         try
     {
-        Monster monster = Monster::parseUnit("units/monster.json");
-        Adventurer adventurer = Monster::parseUnit("units/adventurer.json");
+        Monster monster = Monster::parseUnit(argv[1]);
+        Adventurer adventurer = Monster::parseUnit(argv[2]);
         Battle(adventurer,monster);
     }
 
@@ -54,7 +54,7 @@ int main(int argc, char** argv)
     }
     if (argc < 3)
     {
-        //std::cout << "Wrong arguments" << std::endl;
+        std::cout << "Wrong arguments" << std::endl;
     }
     return 0;
 }
