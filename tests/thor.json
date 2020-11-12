@@ -1,6 +1,6 @@
 {
   "name" : "thor",
   "hp" : 300,
-  "dmg" : 15.30,
+  "dmg" : 15.3,
   "attackcooldown" : 2
 }

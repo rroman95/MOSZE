@@ -1,0 +1,6 @@
+{
+  "name" : "Hosarkany",
+  "healthpoints" : 300,
+  "damage" : 30,
+  "attack_cooldown" : 2.4
+}
