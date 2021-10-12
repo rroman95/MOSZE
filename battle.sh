@@ -9,4 +9,4 @@ IFS=$'\n'
 ./project units/loki.json units/hulk.json >> output.txt 
 ./project units/hulk.json units/thor.json >> output.txt
 ./project units/hulk.json units/loki.json >> output.txt
-"more" >> output.txt
+./project units/BATMAN.json units/ROBIN.json >> output.txt
